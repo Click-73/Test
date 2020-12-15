@@ -18,10 +18,6 @@ html {
   top: 1px;
 }
 
-.properties-list__item:first-child {
-  position: relative;
-  top: 1px;
-}
 section {
   position: relative;
 }
