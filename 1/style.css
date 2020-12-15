@@ -27,7 +27,7 @@
 }
 
 .card:nth-child(2) img {
-  filter: blur(4);
+  filter: blur(4px);
 }
 
 .card:nth-child(3) img {
