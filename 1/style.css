@@ -14,4 +14,5 @@ html {
 
 .properties-list__item {
   list-style-type: none;
+  margin-top: 1px;
 }
