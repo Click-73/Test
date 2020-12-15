@@ -18,3 +18,8 @@ html {
 section {
   position: relative;
 }
+
+.bag {
+  position: relative;
+  top: 1px;
+}
