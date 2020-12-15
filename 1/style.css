@@ -13,4 +13,6 @@ body {
   text-align: center;
   padding-top: 32px;
   color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
