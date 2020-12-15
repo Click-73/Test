@@ -1,34 +1,16 @@
-html {
-  font-family: Roboto, sans-serif;
-  font-size: 18px;
+body {
+  display: flex;
 }
 
-.main {
-  margin: 32px;
-}
-
-.title {
-  word-spacing: 20px;
-  text-transform: uppercase;
+.mountains {
+  margin: auto;
+  width: 300px;
+  height: 500px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg);
+  background-position: center;
+  font-size: 32px;
+  font-weight: 700;
   text-align: center;
-}
-
-.parag {
-  line-height: 28px;
-}
-
-.decoration {
-  font-weight: 900;
-  letter-spacing: 3px;
-  font-size: 24px;
-  opacity: 0.8;
-  text-decoration: underline;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.translation {
-  background-color: grey;
+  padding-top: 32px;
+  color: white;
 }
