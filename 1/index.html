@@ -13,35 +13,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="image-container">
-      <img
-        class="images"
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg"
-        alt="picture_main"
-      />
+    <div class="input"><input type="text" name="LastName" /></div>
+    <div class="input"><input type="number" name="age" value="17" /></div>
+    <div class="input">
+      <input type="checkbox" id="checkbox" name="agree" />
+      <label for="checkbox">Accept terms and conditions</label>
     </div>
-    <div class="gallery">
-      <figure class="card">
-        <img
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-          alt="picture_one"
-        />
-        <figcaption>opacity</figcaption>
-      </figure>
-      <figure class="card">
-        <img
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-          alt="picture_two"
-        />
-        <figcaption>blur</figcaption>
-      </figure>
-      <figure class="card">
-        <img
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-          alt="picture_three"
-        />
-        <figcaption>invert</figcaption>
-      </figure>
+    <div class="input choose-gender">
+      <input id="radio" type="radio" name="gender" /> Male
+      <input id="radio" type="radio" name="gender" /> Female
+      <input id="radio" type="radio" name="gender" /> Secret<label for="radio"></label>
     </div>
+    <div class="input">
+      <input type="textarea" name="description" placeholder="Write description..." />
+    </div>
+    <div class="input"><input type="submit" />Submit</div>
   </body>
 </html>
