@@ -1,6 +1,7 @@
-.main_video {
-  display: block;
-  width: 500px;
-  height: auto;
-  margin: 200px auto 0;
+.input {
+  margin: 16px;
+}
+
+input {
+  margin-right: -5px;
 }
