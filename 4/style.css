@@ -52,7 +52,7 @@ body {
 .submit-button {
   display: block;
   width: 100%;
-  line-height: 32px;
+  height: 32px;
   background-color: #ff7f50;
   margin-top: 16px;
   text-transform: uppercase;
