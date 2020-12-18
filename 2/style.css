@@ -30,6 +30,13 @@
   vertical-align: middle;
 }
 
+.svg_images_2 {
+  width: 32px;
+  line-height: 32px;
+  fill: white;
+  vertical-align: middle;
+}
+
 .buttom_div:hover > .svg_images {
   fill: green;
 }
