@@ -5,3 +5,8 @@
 .input {
   margin: 8px;
 }
+
+label {
+  display: inline-block;
+  margin-left: -5px;
+}
