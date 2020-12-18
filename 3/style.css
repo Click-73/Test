@@ -1,29 +1,25 @@
-* {
-  box-sizing: border-box;
+.main_div {
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
 }
 
-table {
-  margin: 16px;
+.first {
+  font-size: 16px;
 }
 
-table,
-td {
-  border: 1px solid black;
-  border-collapse: collapse;
+.second {
+  font-size: 32px;
 }
 
-td {
-  height: 50px;
-  width: 50px;
-  text-align: center;
+.third {
+  font-size: 64px;
 }
 
-.important {
-  background-color: white !important;
-  border: none !important;
+.fourth {
+  font-size: 128px;
 }
 
-tr:nth-child(odd) td:nth-child(even),
-tr:nth-child(even) td:nth-child(odd) {
-  background: rgb(0, 0, 0);
+.fifth {
+  font-size: 256px;
 }
