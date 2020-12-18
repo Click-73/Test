@@ -1,20 +1,44 @@
-.row {
-  display: flex;
+* {
+  box-sizing: border-box;
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex: 1;
+.container {
+  margin: 32px;
 }
 
-.small-bird {
-  width: 64px;
-  height: 64px;
+.rect {
+  margin-bottom: 16px;
+  background-color: coral;
+  vertical-align: middle;
+  text-align: center;
+  opacity: 0.5;
+  width: 100px;
+  line-height: 100px;
+  transition-property: width, opacity;
+  transition-duration: 2s, 0.5s;
 }
 
-.large-bird {
-  width: 320px;
-  height: 320px;
+.rect:hover {
+  width: 100%;
+  opacity: 1;
+}
+
+.linear {
+  animation-timing-function: linear;
+}
+
+.ease {
+  animation-timing-function: ease;
+}
+
+.ease-in {
+  animation-timing-function: ease-in;
+}
+
+.ease-out {
+  animation-timing-function: ease-out;
+}
+
+.ease-in-out {
+  animation-timing-function: ease-in-out;
 }
