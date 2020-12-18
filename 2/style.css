@@ -13,6 +13,7 @@
   text-transform: uppercase;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 700;
+  outline: none;
   border: none;
   line-height: 50px;
   cursor: pointer;
