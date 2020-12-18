@@ -1,20 +1,7 @@
-* {
-  box-sizing: border-box;
+.main_form {
+  margin: 32px;
 }
 
-body {
-  overflow: hidden;
-}
-
-.thumb {
+.input {
   margin: 8px;
-}
-
-.gallery {
-  display: flex;
-  overflow: auto;
-}
-
-.gallery:hover {
-  cursor: all-scroll;
 }

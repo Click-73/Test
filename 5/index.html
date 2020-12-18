@@ -2,73 +2,112 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
-    <div class="gallery">
-      <img
-        class="thumb"
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson11/hw2/small.jpg"
-        alt="nature"
-      />
-      <img
-        class="thumb"
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson11/hw2/small.jpg"
-        alt="nature"
-      />
-      <img
-        class="thumb"
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson11/hw2/small.jpg"
-        alt="nature"
-      />
-      <img
-        class="thumb"
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson11/hw2/small.jpg"
-        alt="nature"
-      />
-      <img
-        class="thumb"
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson11/hw2/small.jpg"
-        alt="nature"
-      />
-      <img
-        class="thumb"
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson11/hw2/small.jpg"
-        alt="nature"
-      />
-      <img
-        class="thumb"
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson11/hw2/small.jpg"
-        alt="nature"
-      />
-      <img
-        class="thumb"
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson11/hw2/small.jpg"
-        alt="nature"
-      />
-      <img
-        class="thumb"
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson11/hw2/small.jpg"
-        alt="nature"
-      />
-      <img
-        class="thumb"
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson11/hw2/small.jpg"
-        alt="nature"
-      />
-      <img
-        class="thumb"
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson11/hw2/small.jpg"
-        alt="nature"
-      />
+    <div class="main_div">
+      <form action="" class="main_form">
+        <div class="text_div input">
+          <input type="text" class="text_input" name="primaryLanguage" disabled value="HTML" />
+        </div>
+        <div class="checkbox_div input">
+          <input type="checkbox" class="checkbox_input" name="agree" unchecked />
+        </div>
+        <div class="checkbox_div_2 input">
+          <input type="checkbox" class="checkbox_input_checked" name="like" checked readonly />
+        </div>
+        <div class="color_input_div input">
+          <input type="color" class="color_input" value="#ff7f50" name="favouriteColor" />
+        </div>
+        <div class="date_input_div input">
+          <input type="date" class="date_input" name="birthDate" value="2012-01-02" />
+        </div>
+        <div class="datetime-local_div input">
+          <input
+            type="datetime-local"
+            class="datetime_local"
+            name="birthTime"
+            value="2024-10-04T13:02"
+          />
+        </div>
+        <div class="email_div input">
+          <input
+            type="email"
+            class="email_input"
+            name="email"
+            placeholder="example@domain.com."
+            required
+          />
+        </div>
+        <div class="file_div input">
+          <input type="file" name="avatar" class="file_input" />
+        </div>
+        <div class="month_div input">
+          <input type="month" name="startLearning" value="2020-01" class="month_input" />
+        </div>
+        <div class="number_div input">
+          <input type="number" class="number_input" name="favouriteNumber" value="17" />
+        </div>
+        <div class="textarea_div input">
+          <textarea
+            name="story"
+            id=""
+            cols="30"
+            rows="5"
+            placeholder="A long time ago..."
+          ></textarea>
+        </div>
+        <div class="password_div input">
+          <input type="password" class="password_input" name="password" value="secret" />
+        </div>
+        <div class="languages input">
+          <input type="radio" name="language" value="html" id="html" />
+          <label for="html">HTML</label>
+          <input type="radio" name="language" value="css" id="css" />
+          <label for="css">CSS</label>
+          <input type="radio" name="language" value="javascript" id="javascript" />
+          <label for="javascript">JavaScript</label>
+        </div>
+        <div class="range_div input">
+          <input type="range" name="learningProgress" value="30" class="range_input" />
+        </div>
+        <div class="select_div input">
+          <select name="framework" id="">
+            <option value="react">React</option>
+            <option value="jquery">jQuery</option>
+            <option value="bootstrap">Bootstrap</option>
+          </select>
+        </div>
+        <div class="search_div input">
+          <input type="search" placeholder="Type first letters" class="search_input" />
+        </div>
+        <div class="time_div input">
+          <input type="time" name="lunchEnd" value="14:01" class="time_input" />
+        </div>
+        <div class="url_div input">
+          <input
+            type="url"
+            required
+            name="website"
+            placeholder="https://website.com."
+            class="url_input"
+          />
+        </div>
+        <div class="week_div input">
+          <input type="week" name="birthWeek" value="2021-W51" class="week_input" />
+        </div>
+        <div class="save_div input">
+          <input type="submit" value="Save" class="save_input" />
+        </div>
+      </form>
     </div>
   </body>
 </html>
