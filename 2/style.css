@@ -30,12 +30,11 @@
   vertical-align: middle;
 }
 
-.svg_images_2 {
-  width: 32px;
-  line-height: 32px;
-  fill: white;
-}
-
 .buttom_div:hover > .svg_images {
   fill: green;
+}
+
+.span {
+  display: inline-block;
+  margin-left: 10px;
 }
