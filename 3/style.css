@@ -2,14 +2,31 @@
   box-sizing: border-box;
 }
 
-@keyframes moving {
-  from {
-    left: 70px;
-    opacity: 1;
-  }
-  to {
-    left: 0;
-  }
+.container {
+  height: 100vh;
+  display: flex;
+}
+
+.spinner {
+  margin: auto;
+}
+
+.spinner-text {
+  font-family: monospace;
+  font-size: 16px;
+  text-transform: uppercase;
+  animation: blinking 2s linear infinite;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border: 4px solid lightgrey;
+  border-top: 4px solid black;
+  margin: 0 auto;
+  margin-bottom: 8px;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
 }
 
 @keyframes blinking {
@@ -24,30 +41,11 @@
   }
 }
 
-.container {
-  display: flex;
-  height: 100vh;
-  width: 100vw;
-}
-
-.spinner {
-  margin: auto;
-  position: relative;
-}
-
-.spinner-text {
-  font-family: monospace;
-  font-size: 16px;
-  text-transform: uppercase;
-  animation: blinking 2s infinite;
-  animation-timing-function: linear;
-}
-
-.rect {
-  position: absolute;
-  width: 10px;
-  height: 4px;
-  background-color: black;
-  border-radius: 2px;
-  animation: moving 2s infinite, blinking 2s infinite;
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
