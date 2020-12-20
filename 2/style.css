@@ -7,6 +7,9 @@
   min-height: 200px;
   display: flex;
   flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 33.3%;
 }
 
 .product_list {
@@ -14,6 +17,9 @@
   min-height: 200px;
   display: flex;
   flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 33.3%;
 }
 
 .news {
@@ -21,21 +27,24 @@
   min-height: 200px;
   display: flex;
   flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 33.3%;
 }
 
-.span {
+span {
   text-transform: lowercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 8px;
   background-color: #faebd7;
   border-radius: 4px;
-  margin: auto;
 }
 
 @media screen and (min-width: 600px) {
   .product {
     display: flex;
     flex-grow: 2;
+    flex-basis: 66.6%;
   }
 }
 
