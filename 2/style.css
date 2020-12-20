@@ -1,51 +1,38 @@
 * {
   box-sizing: border-box;
 }
-body {
+
+.content {
+  display: flex;
+}
+
+.gallery {
+  width: 80%;
+  background-color: #fa5;
   display: flex;
   height: 100vh;
 }
 
-.fancy-button {
+.ideas {
+  width: 20%;
+  background-color: #5af;
+  display: flex;
+}
+
+.image {
   margin: auto;
-  width: 150px;
-  height: 50px;
-  border-radius: 4px;
-  border: none;
-  background-image: linear-gradient(45deg, yellow, red);
-  text-transform: uppercase;
+  max-width: 100%;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.idea {
+  margin: auto;
+  display: inline-block;
   color: white;
   font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
-  animation: jump 0.5s ease-in-out 0.4s, rotate 0.5s ease-in-out, hide 1s ease 2s forwards;
-}
-
-@keyframes jump {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-40px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(0);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes hide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(2000px);
-  }
+  padding: 4px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
