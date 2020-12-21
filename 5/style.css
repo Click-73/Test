@@ -105,7 +105,7 @@ img {
   }
 }
 
-@media screen and (max-width: 899px) {
+@media screen and (min-width: 600px) and (max-width: 899px) {
   .navigation {
     width: 20%;
   }
@@ -115,7 +115,7 @@ img {
   .main {
     flex-wrap: wrap;
   }
-  .news {
+  .navigation {
     width: 100%;
   }
 }
