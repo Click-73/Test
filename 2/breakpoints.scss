@@ -21,6 +21,12 @@ $lg: 1200px;
         }
     }
 
+@mixin for_midle {
+    @media screen and (min-width: $md) {
+        @content;
+    }
+}
+
 
 @mixin for_large {
     @media screen and (min-width: $lg){

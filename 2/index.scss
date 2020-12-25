@@ -38,4 +38,8 @@ body {
     @include for_large {
         background-color: #c47;
     }
+
+    @include for_midle {
+        background-color: #a61;
+    }
 }
