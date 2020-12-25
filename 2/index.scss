@@ -35,11 +35,13 @@ body {
         background-color: #ff7f50;
     }
     
+    @include for_midle {
+        background-color: #a61;
+    }
+
     @include for_large {
         background-color: #c47;
     }
 
-    @include for_midle {
-        background-color: #a61;
-    }
+
 }

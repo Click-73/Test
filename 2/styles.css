@@ -32,14 +32,14 @@ body {
     background-color: #ff7f50;
   }
 }
-@media screen and (min-width: 1200px) {
-  .square {
-    background-color: #c47;
-  }
-}
 @media screen and (min-width: 900px) {
   .square {
     background-color: #a61;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .square {
+    background-color: #c47;
   }
 }
 
