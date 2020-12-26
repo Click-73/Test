@@ -2,65 +2,50 @@
   box-sizing: border-box;
 }
 
-html {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-}
-
-.header {
-  height: 3em;
-  padding: 0 1em;
-  background-color: #eee;
+.main {
   display: flex;
-  align-items: center;
+  flex-direction: column;
 }
 
-.fa-bars {
-  display: block;
-  font-size: 2em;
+.div {
+  height: 200px;
+  display: flex;
+  flex-grow: 1;
 }
-
-.button_button {
-  padding: 0;
-  border: none;
-  outline-style: none;
-  background: none;
-  cursor: pointer;
-}
-
-.nav-list {
-  padding: 0;
-  list-style-type: none;
+.div .span {
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+  margin: auto;
 }
 
 .navigation {
-  width: 20%;
-  padding: 0.5em;
-  display: none;
+  background-color: #ff7f50;
 }
 
-.nav-list-item {
-  background-color: #808080;
-  color: white;
-  line-height: 2em;
-  margin-bottom: 0.5em;
-  padding-left: 0.5em;
+.product_list {
+  background-color: #006400;
 }
 
-.nav-list-link {
-  display: block;
-  text-decoration: none;
-  color: white;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
+.news {
+  background-color: #0ff;
 }
 
 @media screen and (min-width: 600px) {
-  .navigation {
-    display: block;
+  .main {
+    flex-flow: wrap;
   }
-  .button {
-    display: none;
+
+  .navigation, .product_list {
+    flex-basis: 50%;
   }
 }
+@media screen and (min-width: 900px) {
+  .div {
+    flex-basis: 33%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

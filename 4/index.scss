@@ -1,0 +1,53 @@
+@import'layout.scss';
+
+*{
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.div{
+    height: 200px;
+    display: flex;
+    flex-grow: 1;
+    .span {
+        text-transform: lowercase;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 8px;
+        background-color: #faebd7;
+        border-radius: 4px;
+        margin: auto;
+    }
+
+}
+
+.navigation {
+    background-color: #ff7f50;
+}
+
+.product_list {
+    background-color: #006400;
+}
+
+.news {
+    background-color: #0ff;
+}
+
+
+@include for_midle {
+    .main {
+        flex-flow: wrap;
+    }
+    .navigation, .product_list {
+        flex-basis: 50%;
+    }
+}
+
+@include for_large {
+    .div {
+        flex-basis: 33%;
+    }
+}
