@@ -1,0 +1,26 @@
+.action-button {
+  width: 160px;
+  height: 48px;
+  position: relative;
+  top: 0;
+  right: 0;
+  color: white;
+  background-color: #3040c4;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 2px;
+}
+
+.hide_desktop {
+  @include for-large-up {
+    display: none;
+  }
+}
+
+.hide_mobile {
+  @include for-large-down {
+    display: none;
+  }
+}
+
