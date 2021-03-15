@@ -1,15 +1,14 @@
 function run() {
-  var a = 0;
+  const a = 0;
 
-  if (a == 1) {
-    return c;
+  if (a === 1) {
+    return a;
   }
 
-  for (let i = 1; i < 10; i++) {
+  for (let i = 1; i < 10; i+= 1) {
     console.log(i);
   }
 
-  return (d = a);
+  return (a);
 }
-eslint-errors.txt
 run();
