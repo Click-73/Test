@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: grey;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*# sourceMappingURL=style.css.map */
