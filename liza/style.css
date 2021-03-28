@@ -39,7 +39,7 @@
   align-items: center;
 }
 .headline__block_image {
-  max-width: 40%;
+  max-width: 50%;
 }
 .headline__block_text {
   text-align: center;
@@ -73,11 +73,6 @@ body {
   color: black;
   font-family: "Times New Roman", Times, serif;
   font-size: 14px;
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
-.top-section {
   max-width: 100%;
   overflow-x: hidden;
 }
